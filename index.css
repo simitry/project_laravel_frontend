@@ -1,0 +1,340 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1920px;
+    height: 300px;
+    margin: 0 auto;
+  }
+  .frame {
+    position: relative;
+    width: 1200px;
+    height: 115px;
+    margin: 30px 0 0 360px;
+    border: 2px solid #0b8e36;
+    z-index: 21;
+    overflow: hidden;
+  }
+  .rectangle {
+    position: absolute;
+    width: 261px;
+    height: 57px;
+    top: 50%;
+    left: 104px;
+    background: url(./logo_emsi.png)
+      no-repeat center;
+    background-size: contain;
+    transform: translate(0, -53.51%);
+    z-index: 22;
+  }
+  .group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 141px;
+    height: 48px;
+    top: calc(50% - 26.5px);
+    left: 830px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 24;
+  }
+  .text-book {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 233px;
+    height: 36px;
+    top: calc(50% - 20.5px);
+    left: 481px;
+    color: #0b8e36;
+    font-family: Inter, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 23;
+  }
+  .frame-1 {
+    position: relative;
+    width: 1200px;
+    height: 118px;
+    margin: 17px 0 0 360px;
+    border: 2px solid #0b8e36;
+    overflow: hidden;
+  }
+  .group-2 {
+    position: relative;
+    width: 1196px;
+    height: 118px;
+    margin: 0 0 0 2px;
+    z-index: 1;
+  }
+  .frame-3 {
+    position: absolute;
+    width: 1196px;
+    height: 118px;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+  .frame-4 {
+    position: absolute;
+    width: 599px;
+    height: 120px;
+    top: 0;
+    left: 0;
+    border-right: 2px solid #0b8e36;
+    z-index: 3;
+    overflow: hidden;
+  }
+  .yearly-academic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 409px;
+    height: 34px;
+    top: 41px;
+    left: 96px;
+    color: #0b8e36;
+    font-family: Inter, var(--default-font-family);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33.886px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 4;
+  }
+  .frame-5 {
+    position: absolute;
+    width: 206px;
+    height: 117px;
+    top: 0;
+    left: 599px;
+    z-index: 5;
+  }
+  .group-6 {
+    position: relative;
+    width: 599px;
+    height: 38px;
+    margin: 1px 0 0 0;
+    z-index: 6;
+  }
+  .frame-7 {
+    position: absolute;
+    width: 206px;
+    height: 38px;
+    top: 0;
+    left: 0;
+    border-right: 2px solid #0b8e36;
+    z-index: 7;
+    overflow: hidden;
+  }
+  .module {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 66px;
+    height: 19px;
+    top: 10px;
+    left: 10px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 8;
+  }
+  .frame-8 {
+    position: absolute;
+    width: 393px;
+    height: 38px;
+    top: 0;
+    left: 206px;
+    border-right: 2px solid #0b8e36;
+    z-index: 9;
+    overflow: hidden;
+  }
+  .module-9 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 66px;
+    height: 19px;
+    top: 10px;
+    left: 10px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 10;
+  }
+  .group-a {
+    position: relative;
+    width: 599px;
+    height: 40px;
+    margin: 0 0 0 0;
+    z-index: 11;
+  }
+  .frame-b {
+    position: absolute;
+    width: 206px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    border-top: 2px solid #0b8e36;
+    border-right: 2px solid #0b8e36;
+    border-bottom: 2px solid #0b8e36;
+    z-index: 12;
+    overflow: hidden;
+  }
+  .matiere {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 67px;
+    height: 19px;
+    top: 10px;
+    left: 10px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 13;
+  }
+  .frame-c {
+    position: absolute;
+    width: 393px;
+    height: 40px;
+    top: 0;
+    left: 206px;
+    border-top: 2px solid #0b8e36;
+    border-right: 2px solid #0b8e36;
+    border-bottom: 2px solid #0b8e36;
+    z-index: 14;
+    overflow: hidden;
+  }
+  .matiere-d {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 67px;
+    height: 19px;
+    top: 10px;
+    left: 10px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 15;
+  }
+  .group-e {
+    position: relative;
+    width: 599px;
+    height: 39px;
+    margin: -1px 0 0 0;
+    z-index: 16;
+  }
+  .frame-f {
+    position: absolute;
+    width: 206px;
+    height: 39px;
+    top: 0;
+    left: 0;
+    border-right: 2px solid #0b8e36;
+    z-index: 17;
+    overflow: hidden;
+  }
+  .professeur {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 91px;
+    height: 19px;
+    top: 10px;
+    left: 10px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 18;
+  }
+  .frame-10 {
+    position: absolute;
+    width: 393px;
+    height: 39px;
+    top: 0;
+    left: 206px;
+    border-top: 1px solid #0b8e36;
+    border-right: 2px solid #0b8e36;
+    z-index: 19;
+    overflow: hidden;
+  }
+  .professeur-11 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 91px;
+    height: 19px;
+    top: 10px;
+    left: 10px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 20;
+  }
+  
