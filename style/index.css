@@ -378,6 +378,7 @@ button {
   padding-bottom: 10px;
 }
 .nav-links li a{
+  user-select: none;
   color: #000000;
   text-decoration: none;
 }
