@@ -346,13 +346,9 @@ button {
   z-index: 20;
 }
 .formulaire{
-  width: 100%;
   border:0px solid #0b8e36;
-  position: absolute;
-  align-items: center;
-   justify-content: center;
-  display: flex;
-  margin: 50px 0;
+  position:relative;
+  margin: 50px 360px;
 }
 .formulaire table{
   width: 1200px;
